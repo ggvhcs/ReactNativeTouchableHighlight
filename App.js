@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React, { Component } from "react";
 import { StyleSheet, SafeAreaView } from "react-native";
 
-import HelloTouchableHighlight from "../rnd-notes/ReactNativeTouchableHighlight/HelloTouchableHighlight";
+import HelloTouchableHighlight from "./components/HelloTouchableHighlight";
 
 export default class App extends Component {
   render() {
